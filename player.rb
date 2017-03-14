@@ -1,7 +1,7 @@
 module MathGame
   class Player
 
-    attr_accessor :name, :life
+    attr_accessor :name, :lives
 
     def initialize(name)
       @name = name
@@ -16,4 +16,5 @@ module MathGame
       @lives == 0
     end
 
+  end
 end

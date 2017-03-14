@@ -1,5 +1,5 @@
 require './player.rb'
-require './player.rb'
 require './questions.rb'
+require'./game.rb'
 
-MathGame::game.new
+MathGame::Game.new
